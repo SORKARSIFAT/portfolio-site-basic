@@ -1,7 +1,52 @@
 *{
     margin: 0;
     padding: 0;
- 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    font-family: "Oswald", sans-serif;
+}
+/* common styles */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+   color:#474747;
+}
+.btn-primary{
+    border-radius: 5px;
 
+    background: rgb(253, 110, 10);
+    font-weight: bold;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+}
+.btn-primary:hover{
+  background-color: red;
+}
+
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 200px;
+
+}
+
+.nav-title{
+    font-size: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px; 
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
 }
