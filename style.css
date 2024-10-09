@@ -133,9 +133,11 @@ main{
 
 .skills{
     padding: 130px 150px;
+   
+}
+main section{
     margin-top: 40px;
 }
-
 .skills-container{
     display: flex;
     gap: 25px;
