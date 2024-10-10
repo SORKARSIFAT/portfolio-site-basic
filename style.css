@@ -176,7 +176,13 @@ text-align: left;
 .resume-container{
     display: flex;
     gap: 40px;
-    padding: 130px 150px;
+    /* padding: 130px 150px; */
+    /* padding-left:150px ;
+    padding-right:150px ;
+    padding-top: 30px;
+    padding-bottom: 10px; */
+    padding: 30px 150px 20px 150px ;
+
 }
 
 .resume-title{
@@ -196,6 +202,7 @@ font-weight: 600;
 line-height: 34px;
 letter-spacing: 0%;
 text-align: left;
+margin-top: 15px;
 }
 
 .experience-sub-title{
@@ -206,6 +213,7 @@ font-weight: 500;
 line-height: 27px;
 letter-spacing: 0%;
 text-align: left;
+margin-top: 12px;
 }
 
 .experience-desp{
@@ -215,8 +223,65 @@ font-weight: 400;
 line-height: 28px;
 letter-spacing: 0%;
 text-align: left;
+margin-top: 10px;
 }
 
 .resume-column{
     padding: 20px 15px;
+}
+
+.resume hr{
+    margin-top: 15px;
+}
+
+/* footer style */
+footer{
+    padding:130px 230px ;
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+.footer-colunm{
+    width: 50%;
+}
+
+footer input {
+   height: 64px; 
+   border-radius: 5px;
+   background-color: white;
+   display: block;
+   width: 100%;
+   padding: 10px 20px;
+   margin-bottom: 24px;
+   border: none;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+footer textarea{
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.footer-desp{
+   margin-bottom: 15px;
+    color: rgb(71, 71, 71);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-title{
+    color: rgb(24, 24, 24);
+
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center; 
+margin-bottom: 25px;
 }
